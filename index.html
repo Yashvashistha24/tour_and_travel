@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel</title>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+   <header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+
+
+       <a href="#" class="logo"><span>T</span>ravel</a>
+       <nav class="navbar">
+       <a href="#home">home</a>
+       <a href="#book">book</a>
+       <a href="#package">package</a>
+       <a href="#gallery">gallery</a>
+       <a href="#services">services</a>
+       <a href="#review">review</a>
+       <a href="#contact">contact</a>
+       </nav>
+       <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+
+   </header>
+   
+<div class="login-form-container">
+     <div class="fas fa-times" id="form-close"></div>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email here..">
+        <input type="password" class="box" placeholder="enter your email here..">
+        <input type="submit" value="login-now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password?<a href="#">click here</a></p>
+        <p>don't have any account?<a href="#">register from here</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+<div class="content">
+    <h3>Explore the world with us</h3>
+    <p>Discover new places and live every moment</p>
+    <a href="#" class="btn">discover more</a>
+</div>
+
+<div class="controls">
+    <span class="vid-btn active" data-src="images/video3.mp4"></span>
+    <span class="vid-btn" data-src="images/video2.mp4"></span>
+    <span class="vid-btn" data-src="images/video4.mp4"></span>
+    <span class="vid-btn" data-src="images/video5.mp4"></span>
+    <span class="vid-btn" data-src="images/video6.mp4"></span>
+    <span class="vid-btn" data-src="images/video7.mp4"></span>
+    <span class="vid-btn" data-src="images/video8.mp4"></span>
+    <span class="vid-btn" data-src="images/video9.mp4"></span>
+</div>
+<div class="video-container">
+    <video src="images/video3.mp4" id="video-slider" loop autoplay muted></video>
+</div>
+</section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+<span>b</span>
+<span>o</span>
+<span>o</span>
+<span>k</span>
+<span class="space"></span>
+<span>n</span>
+<span>o</span>
+<span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="images/booking.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputbox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputbox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputbox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputbox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+
+<section class="package" id="package">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+            </h1>
+
+<div class="box-container">
+    <div class="box">
+        <img src="images/Mumbai.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt">Mumbai</i> </h3>
+            <p>Mumbai is a really beautiful city and the capital of maharashtra and Mumbai's culture offers a blend of traditional and cosmopolitan festivals, food, entertainment, and night life. The city's cosmopolitan and urban-centric modern cultural offerings are comparable to other world capitals.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs.6,000<span>Rs.12,000</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/Dubai.jpg"  alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"> Dubai</i></h3>
+            <p>The UAE culture mainly revolves around traditional Arab culture. The influence of Arab and Islamic culture on its architecture, music, attire, cuisine, and lifestyle is very prominent as well. Five times every day, Muslims are called to prayer from the minarets of mosques that are scattered around the country.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs.18,000<span>Rs.27,000</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/new york.jpg"  alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"> New York</i></h3>
+            <p>New York City has more than 2,000 arts and cultural organizations and more than 500 art galleries. The city government funds the arts with a larger annual budget than the National Endowment for the Arts., such as Carnegie Hall and the Metropolitan Museum of Art, which have become internationally renowned.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs.1,00,000<span>Rs.1,20,000</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/Tokyo.jpg"  alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"> Tokyo</i></h3>
+            <p>Tokyo, the world's largest metropolis, is known for top-rated restaurants, the Shibuya Crossing, Imperial Palace, cherry blossoms, markets, and more. The shopping scene includes the Harajuku and Akihabara districts. Tokyo is also famous for its vending machines, cat cafes, museums, and sacred sites.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs.35,000<span>Rs.57,000</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/Istanbul.jpg"  alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"> Istanbul</i></h3>
+            <p>Istanbul, Turkish İstanbul, formerly Constantinople, ancient Byzantium, largest city and principal seaport of Turkey. It was the capital of both the Byzantine Empire and the Ottoman Empire.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs.1,50,000<span>Rs.1,70,000</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="images/switzerland.jpg"  alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-marker-alt"> lucerne</i></h3>
+            <p>The city of Lucerne (Luzern in German) is a popular stop for most people visiting Switzerland. The city is well known for its stunning medieval architecture and its stunning location on the edge of Lake Lucerne amid snow capped mountains. Many people touring Switzerland spend at least a few days in Lucerne.</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">Rs.2,50,000<span>Rs.2,70,000</span></div>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section class="service" id="service">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>We provide all the best,comfortable and affordable hotels which are nearby your stay, so that whenever you want to take a rest you can take it, travel is only complete with a perfect stay and that's what we take care of.</p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>foods and drinks</h3>
+                <p>Food and drink are the complimentary and we take care of that too, our packages is the combination of best drink and beverages which is made with the perfection and also with perfect hygiene and safety.</p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>We make sure that your safety is the first priority, and we make sure of it and the best thing is that we have our CCTV installed in all the hotel which come under our packages which will keep you safe.</p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>we provide all over the world tour and always keep adding new places so that our customer can have a variety of option and can choose the best suitable plan for them and can enjoy the travel.</p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest route</h3>
+                <p>our package are alwasy secure and make sure that we choose the fastest route as that will make an ease in the travel of our customer and that will make them feel comfortable and relaxed throughout their journey.</p>
+
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventure</h3>
+                <p>our packages also gives the customer an option to choose adventure and can have fun and it is a really good option for those who really love hiking or any other adventurous activity so that they can always have some physical activity.</p>
+
+            </div>
+        </div>
+</section>
+
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+            </h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/image1.jpg" alt="">
+                    <div class="content">
+                        <h3>greece</h3>
+                        <p>Greece is famous for its ancient philosophers, like Plato, Pythagoras, Socrates, and Aristotle.</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image2.jpg" alt="">
+                    <div class="content">
+                        <h3>Ora Beach</h3>
+                        <p>Ora Beach offers beautiful natural scenery which is not inferior to the coast of Oahu in Hawaii.</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image3.jpg" alt="">
+                    <div class="content">
+                        <h3>Maldives</h3>
+                        <p>Maldives, officially the Republic of Maldives, is an archipelagic country in the Indian subcontinent of Asia</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image4.jpg" alt="">
+                    <div class="content">
+                        <h3>London Bridge</h3>
+                        <p>Several bridges named London Bridge have spanned the River Thames between the City of London and Southwark.</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image5.jpg" alt="">
+                    <div class="content">
+                        <h3>Cappadocia</h3>
+                        <p>While famous for its sunrise hot-air balloon rides, Cappadocia is also known for its enchanting cave dwellings.</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image6.jpg" alt="">
+                    <div class="content">
+                        <h3>Egypt</h3>
+                        <p>Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs.</p>
+                        <a href="#" class="btn">see more</a>lo
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image7.jpg" alt="">
+                    <div class="content">
+                        <h3>Italy</h3>
+                        <p>Italy is truly the world's most beautiful country. It flaunts the most inspiring cultural treasures.</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image8.jpg" alt="">
+                    <div class="content">
+                        <h3>spain</h3>
+                        <p>Spain is known for its food, Flamenco music and dance, siesta, bullfights, horses, arts and literature.</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/image9.jpg" alt="">
+                    <div class="content">
+                        <h3>Lake Baikal</h3>
+                        <p>Lake Baikal is the world's largest freshwater lake by volume, containing 23% of the world's fresh surface water</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+            </div>
+</section>
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+            </h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/review1.jpg" alt="">
+                            <h3>Jemmie</h3>
+                            <p>I had a really amazing experience with the travel which me and my family planned with help of this Travel company as they provide a lot of travel partner and number of hotels which are register with them.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/review2.jpg" alt="">
+                            <h3>Alex albert</h3>
+                            <p>I just love their services and i really would love to make plan with the help of your company and i am very satisfied with their services as they provide really amazing food and everything is well organized in the hotel.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/review3.jpg" alt="">
+                            <h3>Robert</h3>
+                            <p>They are really awesome as they have such an amazing combination of every single thing i really love adventure and they also provide few physical activity and i did few and i enjoyed a lot.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="images/review4.jpg" alt="">
+                            <h3>John</h3>
+                            <p>I work a lot and my mother keep telling me to make a plan to go somewhere and relax as a we all need any places where we can chill and then i found a website of this company and they are really amazing at providing the perfect service.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+
+
+<section class="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+            </h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images/contact1.png" alt="">
+
+                </div>
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="number">
+                        <input type="text" placeholder="subject">
+                    </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+                </form>
+            </div>
+</section>
+    
+
+<section class="brand-container">
+<div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/brand1.jpg" height="50%" width="50%" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand2.png" height="50%" width="50%" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand3.png" height="50%" width="50%" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand4.jpg" height="50%" width="50%" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand5.png" height="50%" width="50%" alt=""></div>
+        <div class="swiper-slide"><img src="images/brand6.png" height="50%" width="50%" alt=""></div>
+    </div>
+</div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>Our company is register with a lot of other companies and they are very happy to work with us and we all are working since 2014 and we become so popular and also grew rapidly we have covered around more than 110 countries and we always keep our safety as a first priority.</p>
+        </div>
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">Australia</a>
+            <a href="#">france</a>
+            
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">service</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <h1 class="credit">Created by <span>Yash Vashistha</span></h1>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
